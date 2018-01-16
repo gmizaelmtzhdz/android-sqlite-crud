@@ -34,7 +34,7 @@ public class Main extends Activity {
     }
     public void example()
     {
-        //CREATE
+        //CREATE DATABASE: db & TABLE: employee
         int db_version=1;
         String db_name="db";
         String db_sql_create="CREATE TABLE IF NOT EXISTS employee(\n" +
