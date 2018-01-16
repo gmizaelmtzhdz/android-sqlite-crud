@@ -219,4 +219,19 @@ public class SQLiteCRUD extends SQLiteConnection
         this.db_connection.execSQL(query.toString());
         return result;
     }
+    /**
+     * Función delete  (CRUD)
+     * @param table
+     * @return Boolean
+     */
+    public boolean delete(String table)
+    {
+        boolean result=true;
+        StringBuilder query=new StringBuilder();
+        query.append("DELETE FROM "+table);
+        Log.i("[SQLiteCRUD] Query DELETE: ",query.toString());
+        this.db_connection=this.getWritableDatabase();
+        this.db_connection.execSQL(query.toString());
+        return result;
+    }
 }

@@ -111,6 +111,7 @@ public class Main extends Activity {
 
 
         //DELETE
-        sqLiteCRUD.delete("my_table","WHERE id >1");
+        sqLiteCRUD.delete("employee","WHERE idemployee >1");
+        sqLiteCRUD.delete("employee");
     }
 }
