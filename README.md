@@ -4,12 +4,18 @@ CRUD SQLite for JAVA - ANDROID
 
 ## Classes Hierarchy
 Class Hierarchy:
-
-```mermaid
-graph TD
-    B[SQLiteOpenHelper]
-    B-->C["SQLiteConnection"]
-    C-->D["SQLiteCRUD"];
+```
++-----------------+
+|SQLiteOpenHelper |
++-------+---------+
+        |
++-------v---------+
+|SQLiteConnection |
++-------+---------+
+        |
++-------v---------+
+|SQLiteCRUD       |
++-----------------+
 ```
 # Authors
 - [@G. Mizael Mtz Hdz](https://github.com/martinezmizael)
