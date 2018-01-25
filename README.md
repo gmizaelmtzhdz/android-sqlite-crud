@@ -1,4 +1,4 @@
-# Android SQLite CRUD
+# Android SQLite Database - CRUD
 CRUD SQLite for JAVA - ANDROID
 
 ## IMPLEMENTATION
