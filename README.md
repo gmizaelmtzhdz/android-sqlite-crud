@@ -69,6 +69,11 @@ sqLiteCRUD.delete("employee","WHERE idemployee >1");
 sqLiteCRUD.delete("employee");
 ```
 
+
+### Full Example
+...
+
+
 ## Classes Hierarchy
 Class Hierarchy:
 ```
